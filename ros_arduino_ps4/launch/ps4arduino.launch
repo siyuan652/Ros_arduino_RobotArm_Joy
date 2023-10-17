@@ -1,0 +1,4 @@
+<launch>
+    <include file="$(find joy)/launch/ps4joy.launch"/>
+    <node name="ps4arduino" pkg="ros_arduino_ps4" type="ps4arduino.py" output="screen"/>
+</launch>
